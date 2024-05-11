@@ -17,8 +17,8 @@ android {
         minSdkVersion 26
         targetSdkVersion 34
         compileSdk 34
-        versionCode 75
-        versionName "0.8.7a1"
+        versionCode 77
+        versionName "0.8.7b1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -47,7 +47,6 @@ android {
             }
         }
         debug {
-            applicationIdSuffix ".debug"
             versionNameSuffix "-${getGitHash()}"
             debuggable true
         }
@@ -89,6 +88,11 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
+    }
+
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
     }
 
     namespace 'deltazero.amarok'

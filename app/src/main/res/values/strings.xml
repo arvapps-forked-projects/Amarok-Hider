@@ -99,7 +99,7 @@
     <string name="workmode">Workmode</string>
     <string name="misc">Misc.</string>
     <string name="security">Security</string>
-    <string name="panic_button">Floating button (Boss key)</string>
+    <string name="panic_button">Panic button</string>
     <string name="panic_button_description">Display an floating button used to hide apps &amp; files in emergency. It is shown over all other apps. The button only shows in unhidden state.</string>
     <string name="in_app_update_failed">New version available, but failed to fetch. Please update manually.</string>
     <string name="failed_to_open_doc_tree">Could not open the system file picker</string>
@@ -170,4 +170,6 @@
     <string name="auto_hide_description">Automatically hides after the screen turns off.</string>
     <string name="auto_hide_delay">Auto hide delay</string>
     <string name="auto_hide_delay_description">The number of minutes to delay before hiding after the screen turns off.</string>
+    <string name="block_screenshots">Block screenshots</string>
+    <string name="block_screenshots_description">Block screenshots in Amarok and blur it in the recent apps list.</string>
 </resources>
